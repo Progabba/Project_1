@@ -17,7 +17,7 @@ parrent_dir = os.path.dirname(current_dir)
 data_dir = os.path.join(parrent_dir, 'data')
 file_path = os.path.join(data_dir, 'operations.xls')
 json_path = os.path.join(parrent_dir, 'user_settings.json')
-print(json_path)
+
 
 
 logger = logging.getLogger("utils")
