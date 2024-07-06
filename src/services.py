@@ -14,7 +14,8 @@ file_path = os.path.join(data_dir, 'operations.xls')
 
 def search_phone_numbers(data: pd.DataFrame) -> List[Dict[str, Any]]:
     """Поиск транзакций с мобильными номерами в описании."""
-    return data[data['Описание'].str.contains(r'\+\d{1,2}\s\d{3}\s\d{2,3}-\d{2}-\d{2}', regex=True)].to_dict(orient='records')
+    phone_numbers = data[data['Описание'].str.contains(r'\+\d{1,2}\s\d{3}\s\d{2,3}-\d{2}-\d{2}', regex=True)].to_json(orient='records', force_ascii=False, indent=4)
+    return phone_numbers
 
 if __name__ == '__main__':
     data = load_excel_to_dataframe(file_path)
