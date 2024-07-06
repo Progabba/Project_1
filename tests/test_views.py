@@ -1,17 +1,11 @@
 import json
-from unittest.mock import patch, MagicMock
+from unittest.mock import MagicMock, patch
 
 import pandas as pd
 import pytest
 
-from src.views import (
-    main_views_foo,
-    get_stock_prices,
-    get_currency_rates,
-    get_top_transactions,
-    get_card_summary,
-    get_greeting,
-)
+from src.views import (get_card_summary, get_currency_rates, get_greeting, get_stock_prices, get_top_transactions,
+                       main_views_foo)
 
 
 def test_get_greeting():

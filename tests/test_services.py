@@ -3,7 +3,6 @@ import json
 import pandas as pd
 import pytest
 
-
 from src.services import search_phone_numbers
 
 

@@ -2,16 +2,15 @@ import json
 import logging
 import os
 from datetime import datetime
-import requests
 
 import pandas as pd
-
+import requests
 from dotenv import load_dotenv
 
 from src.utils import load_excel_to_dataframe
 
 load_dotenv()
-api_key = os.getenv("API_KEY_ALPHAVANTAGE")
+
 
 finnhub_key = os.getenv("FINNHUB")
 
@@ -117,7 +116,7 @@ def get_currency_rates() -> list:
     return []
 
 
-def get_stock_prices(api_key: str) -> list:
+def get_stock_prices(finnhub_key: str) -> list:
     """Возвращает стоимость акций для символов из user_settings.json"""
 
     # Загружаем user_settings.json
@@ -152,7 +151,7 @@ def main_views_foo(
         "cards": get_card_summary(df),
         "top_transactions": get_top_transactions(df),
         "currency_rates": get_currency_rates(),
-        "stock_prices": get_stock_prices(api_key),
+        "stock_prices": get_stock_prices(finnhub_key),
     }
     json_data = json.dumps(main_viewa_dict, ensure_ascii=False, indent=4)
     return json_data
