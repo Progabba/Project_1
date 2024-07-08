@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="47e434ce-7c9f-42d8-a613-e2c0e901f0e8" name="Changes" comment="Реализованы функции по 2 категории. Сервис по поиску транзакций которые содержат номер телефона в описании" />
+    <list default="true" id="47e434ce-7c9f-42d8-a613-e2c0e901f0e8" name="Changes" comment="Реализованы функции по 2 категории. Сервис по поиску транзакций которые содержат номер телефона в описании">
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_07_2024_2_12_[Changes]/shelved.patch" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Checkout_at_01_07_2024_2_12__Changes_.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/services.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/logs/utils.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/pythonProject.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/pythonProject.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,7 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="feature/stage1" />
+        <entry key="$PROJECT_DIR$" value="c0ca865d3202bdc351050377980c9e0850172dd4" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -34,38 +43,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.services.executor&quot;: &quot;Run&quot;,
-    &quot;Python.utils.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Python/skypro/3_modul/project_1/pythonProject&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.services.executor": "Run",
+    "Python.utils.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "feature/stage1",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Python/skypro/3_modul/project_1/pythonProject"
   }
-}</component>
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Python\skypro\3_modul\project_1\pythonProject" />
+    </key>
+  </component>
   <component name="RunManager">
-    <configuration name="utils" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="pythonProject" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/src" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/src/utils.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.utils" />
@@ -140,6 +133,7 @@
     <MESSAGE value="create new branche" />
     <MESSAGE value="Реализованы функции по 1 категории. Главная страница." />
     <MESSAGE value="Реализованы функции по 2 категории. Сервис по поиску транзакций которые содержат номер телефона в описании" />
-    <option name="LAST_COMMIT_MESSAGE" value="Реализованы функции по 2 категории. Сервис по поиску транзакций которые содержат номер телефона в описании" />
+    <MESSAGE value="Заполнил ридми файл" />
+    <option name="LAST_COMMIT_MESSAGE" value="Заполнил ридми файл" />
   </component>
 </project>
