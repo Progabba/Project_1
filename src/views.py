@@ -33,9 +33,9 @@ logging.basicConfig(
 )  # Перезапись файла при каждом запуске
 
 
-def get_greeting(data_time) -> str:
+def get_greeting() -> str:
     """Возвращает приветствие в зависимости от текущего времени суток"""
-    current_time = datetime.strptime(data_time, "%Y-%m-%d %H:%M:%S")
+    current_time = datetime.now()
     hour = current_time.hour
     if 5 <= hour < 12:
         logging.info("Доброе утро")
@@ -64,8 +64,8 @@ def get_card_summary(df: pd.DataFrame) -> list:
         card_summary.append(
             {
                 "last_digits": str(card)[-4:],  # Последние 4 цифры номера карты
-                "total_spent": round(total_spent, 2),  # Общая сумма расходов
-                "cashback": round(cashback, 2),  # Кешбэк
+                "total_spent": abs(round(total_spent, 2)),  # Общая сумма расходов
+                "cashback": abs(round(cashback, 2)),  # Кешбэк
             }
         )
     logging.info(f"Результат {card_summary}")
@@ -147,7 +147,7 @@ def main_views_foo(
     data_time: str,
 ) -> dict:
     main_viewa_dict = {
-        "greeting": get_greeting(data_time),
+        "greeting": get_greeting(),
         "cards": get_card_summary(df),
         "top_transactions": get_top_transactions(df),
         "currency_rates": get_currency_rates(),
